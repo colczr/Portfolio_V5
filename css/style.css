@@ -1,0 +1,542 @@
+body {
+  font-family: "Martel", "Sans Serif", "Arial";
+  font-weight: 400;
+  overflow-x: hidden;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 400;
+}
+
+
+@font-face {
+    font-family: Gz;
+    src: url(../fonts/gzawL.ttf);
+}
+
+@font-face {
+    font-family: Gzb;
+    src: url(../fonts/gzaw.ttf);
+}
+
+.gray{
+  color: #888;
+}
+
+.darkGray{
+  color: #666;
+}
+
+.trueBlack{
+  color: #444;
+}
+
+.black{
+  color: black;
+}
+
+.bg-light-gray{
+  background-color: #f7f7f7;
+}
+
+
+h3{
+  font-size: 1.5rem;
+  text-align:center;
+  padding-top: 1rem;
+  letter-spacing: 0.05rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  margin-bottom: 0;
+
+}
+
+h4{
+  font-size: 1.3rem;
+  text-align:center;
+  letter-spacing: 0.03rem;
+}
+
+nav{
+  position: fixed;
+  height: 10rem;
+  font-size: 1.3rem;
+  text-align: left;
+  right: 1.4rem;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding-bottom: 1rem;
+  z-index: 9998;
+  background-color: none;
+  letter-spacing: 0.5pt;
+}
+
+canvas{
+  position: fixed;
+  z-index: 1;
+}
+
+.divider{
+  position: absolute;
+  width: 0.6rem;
+  height: 0.6rem;
+  right: 8.5rem;
+  top: 0.7rem;
+  border-radius: 100px;
+  background-color: #C42128;
+  z-index: 10000;
+
+}
+
+#logo_small{
+  position: fixed;
+  right: 4.3rem;
+  height: 5rem;
+  top: 2rem;
+  z-index: 10000;
+  opacity: 0;
+}
+
+nav > ul{
+  color: #666;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  margin: 0;
+  line-height: 2rem;
+}
+
+li.navItem a{
+  font-family: "Martel Sans";
+  font-weight: 600;
+  letter-spacing: -0.01rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.hero-1{
+  display: block;
+  position: relative;
+  width: 18rem;
+  top: 40vh;
+
+  margin: auto auto;
+}
+
+
+#home{
+  height: 100vh;
+}
+
+.section{
+  width: 100vw;
+  height: auto;
+}
+
+
+#container{
+  position: absolute;
+  z-index: 2;
+}
+
+
+#wave{
+  background-image: url("../img/wave.png");
+  background-size: cover;
+  background-position:top;
+  background-repeat: no-repeat;
+  bottom:0vh;
+  width: 100vw;
+  height: 17vh;
+  position: fixed;
+  z-index: 9997;
+}
+
+.hero-transition{
+  width: 100vw;
+}
+
+.gallery img{
+  width: 100%;
+  display: block;
+  margin:auto;
+  /*-webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;*/
+}
+
+/*.gallery img:hover{
+  background-color: #ddd;
+}*/
+
+div.gridItem{
+  margin-bottom: 3rem;
+  display: inline-block;
+  width: 15rem;
+}
+
+#about .gallery{
+  padding-top: 0.7rem;
+}
+
+.container{
+  position: relative;
+  width: 80vw;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.load-screen{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: #fff;
+}
+
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spinner {
+    to {-webkit-transform: rotate(360deg);}
+}
+
+.spinner {
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.spinner:before {
+    content: 'Loading…';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.spinner:not(:required):before {
+    content: '';
+    border-radius: 50%;
+    border: 2px solid rgba(196, 33, 40, 0.4);
+    border-top-color: rgba(196, 33, 40, 0.8);
+    animation: spinner .6s linear infinite;
+    -webkit-animation: spinner .6s linear infinite;
+}
+
+
+#contact{
+  height: 100vh;
+  background-color: #333;
+}
+
+.contact-container{
+  position: fixed;
+  height: 35rem;
+  width: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  visibility: hidden;
+}
+
+.contact-container img{
+  height: 15rem;
+  padding-bottom: 1rem;
+}
+
+#contact > p i{
+  font-size: 2.5rem;
+  color: #c33;
+}
+
+.about-container{
+  /*background-image: url(../img/wave_long.png);
+  background-repeat: no-repeat;*/
+  background-color: #333;
+  /*background-size: cover;*/
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+
+
+.portfolio-container{
+  margin-bottom: 25rem;
+}
+
+.about-container > img {
+  width: 100%;
+}
+
+.about-container > .container{
+  padding-top: 20rem;
+  margin-bottom: 0;
+}
+
+#contact{
+  height: 180vh;
+  background-color: #333;
+
+  left: 0;
+  right: 0;
+}
+
+#about {
+  color: #ccc;
+  font-weight: 400;
+}
+
+.about-container .container{
+  height: 110vh;
+}
+
+
+#portrait{
+  position: fixed;
+  left: 5vw;
+  bottom: 0;
+  height: 80vh;
+  z-index: 10000;
+}
+
+.aboutText1 {
+  vertical-align: middle;
+  position: fixed;
+  top: 0;
+  left: 42vw;
+  width: 40vw;
+  margin-bottom: 0;
+  letter-spacing: 0.03rem;
+}
+
+.aboutText1 > span:first-child{
+  font-family: "Martel Sans";
+  font-weight: 800;
+  font-size: 2.5rem;
+  letter-spacing: -0.06rem;
+  line-height: 3.5rem;
+  display: block;
+  
+}
+
+#fadeTrigger{
+  height: 10vh;
+}
+
+#fadeBox{
+  visibility: hidden;
+}
+
+.aboutText1 > span{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.aboutText1 > span > a{
+  padding: 1rem 2rem;
+  border: solid #c33 1px;
+  color: #c33;
+
+}
+
+
+#portfolio-nav {
+  width: 25rem;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.filter {
+  margin: 0.7rem;
+  font-size: 1.3rem;
+  color: #666;
+  padding-bottom: 0.3rem;
+
+}
+
+.filter:hover{
+  cursor: pointer;
+  border-bottom: 1px solid #c33;
+  color: #666;
+}
+
+a.al {
+  border-bottom: 1px solid #c33;
+}
+
+#Container .mix{
+    display: none;
+}
+
+
+
+
+nav.pnav {
+  height: 25rem;
+}
+
+
+
+.portHead1{
+  position: relative;
+  left:0;
+  right:0;
+  margin: auto;
+  font-family: "Martel Sans";
+  font-weight: 800;
+  font-size: 2.5rem;
+  letter-spacing: -0.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 15rem;
+}
+
+.portHead2{
+  font-family: "Martel Sans";
+  font-weight: 900;
+  font-size: 3.8rem;
+  line-height: 5rem;
+  text-align: center;
+  letter-spacing: -0.1rem;
+}
+
+.portHead3{
+  font-family: "Martel Sans";
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: -0.15rem;
+
+}
+
+.portHead4{
+  font-family: "Martel Sans";
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: left;
+  letter-spacing: -0.08rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.portTag{
+  text-align: center;
+}
+
+.portTag > span{
+  display: inline-block;
+  width: 3rem;
+  padding: 1rem;
+  margin: 1.5rem 0.5rem;
+  border: 1px #aaa solid;
+  border-radius: 2px;
+  color: #aaa;
+}
+
+.content{
+  width: 100vw;
+  margin: auto;
+  padding: 3rem 0;
+  font-family: "Martel";
+  color: black;
+}
+
+.chunk{
+  margin: 5rem auto;
+  width: 65rem;
+}
+
+.content p{
+
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.divider-line{
+  width: 5rem;
+  height: 2px;
+  left:0;
+  right:0;
+  margin: auto;
+  position: relative;
+  background-color: #b00;
+}
+
+#info_arch{
+  display: block;
+  position: absolute;
+  left:5rem;
+  padding-top: 10rem;
+  width: 1200px;
+}
+
+#pie_chart{
+  display: block;
+  left:5rem;
+  width: 558px;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .about-container:first-child{
+    width: 150%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  nav > ul > li{
+    display: none;
+  }
+
+  .divider{
+    display: none;
+  }
+
+
+  #portrait{
+    display: none;
+  }
+
+  .aboutText1{
+    width: 80vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .portfolio-container{
+    width: 95vw;
+    padding: 0;
+  }
+
+  .about-container:first-child{
+    width: 200%;
+  }
+}
