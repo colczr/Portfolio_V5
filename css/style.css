@@ -22,20 +22,28 @@ h1, h2, h3, h4, h5, h6{
     src: url(../fonts/gzaw.ttf);
 }
 
-.gray{
-  color: #888;
+.888{
+  color: #888 !important;
 }
 
-.darkGray{
-  color: #666;
+.white{
+  color: white;
 }
 
-.trueBlack{
-  color: #444;
+.aaa{
+  color: #aaa !important;
+}
+
+.666{
+  color: #666 !important;
+}
+
+.444{
+  color: #444 !important;
 }
 
 .black{
-  color: black;
+  color: black !important;
 }
 
 .bg-light-gray{
@@ -99,6 +107,14 @@ canvas{
   top: 2rem;
   z-index: 10000;
   opacity: 0;
+}
+
+.port_nav{
+  color: #c42128; 
+  font-family: 'Martel Sans'; 
+  position: fixed; 
+  top: 7rem; 
+  right: 5rem;
 }
 
 nav > ul{
@@ -479,6 +495,7 @@ nav.pnav {
   color: #444;
 }
 
+
 .divider-line{
   width: 5rem;
   height: 2px;
@@ -492,17 +509,21 @@ nav.pnav {
 #info_arch{
   display: block;
   position: absolute;
-  left:5rem;
-  padding-top: 10rem;
-  width: 1200px;
+  margin-left: -23rem;
+  margin-top: -18rem;
+  width: 1100px;
 }
 
 #pie_chart{
   display: block;
-  left:5rem;
-  width: 558px;
+  position: relative;
+  left:-18rem;
+  width: 1000px;
+  padding-top: 3rem;
   margin: auto;
 }
+
+
 
 @media screen and (max-width: 900px) {
   .about-container:first-child{
