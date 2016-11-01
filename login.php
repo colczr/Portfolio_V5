@@ -3,7 +3,7 @@
 	unset($_SESSION['id']);
 	if (isset($_POST['submit'])){
 
-		if ($_POST['password'] == "wolfie"){
+		if ($_POST['password'] == "wolfiem"){
 			$_SESSION['id'] = 1;
 			header("Location: index.php");
 		} else {
@@ -47,12 +47,9 @@
 
 			<div class="section-container">
 				<div class="section" id="home">
-					<p class="hero-1">&nbsp;&nbsp;Please enter password
-<<<<<<< HEAD
-						<form method="POST"><br><input type="text" name="password">
-=======
-						<form method="POST"><br><input class="hero-1" type="text" name="password">
->>>>>>> origin/master
+					<p class="hero-1">&nbsp;&nbsp;Please enter password	
+						<form method="POST"><br><input type="text" name="password" class="hero-1">
+
 						<br><input type="submit" class="hero-1" style="display:block; width: 10rem;" name="submit"></form>
 					</p>
 				</div>

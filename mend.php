@@ -1,8 +1,9 @@
 <?php
 ini_set( 'error_reporting', E_ALL );
 ini_set( 'display_errors', true );
-
+include("authentication.php");
 include("head.php");
+
 ?>
 
 <body>
@@ -17,7 +18,7 @@ include("head.php");
 
 
 	?>
-		<div class="content" style="background-color: #333;">
+		<div class="content" style="background-color: #555;">
 			<!-- <div class="caption-bg-gray">
 			</div> -->
 				<!-- <div class="caption-bg" style="background-image: url(img/bg4.png);">
@@ -48,7 +49,13 @@ include("head.php");
 				<h3 class="portHead3">Choosing and Organizing the right content</h3><br>
 				<p>Thperapists and clients are not typically a tech-savvy population. Therefore, it is important to emphasize the logical and intuitive organization of the content.The therapist's role is more complicated compared to the client. I summarized and divided their main tasks into client management - managing clients and their homework; homework management - managing existing and new homework in their library; report - keeping track of treatment progress; emergency center - monitoring clients and receive notification if their condition becomes unstable; and settings. 
 				<img id="info_arch" src="img/mend/info_arch.png"/></p>
-				<p style="padding-top: 68rem;">Compared to the therapist, the client's role is rather simple. Therefore, I made sure to only include esssential functions so they are not overwhelmed. The clients can keep track of their homework, look at their progress report and have access to emergency information.</p>
+				<p style="padding-top: 90rem;">Compared to the therapist, the client's role is rather simple. Therefore, I made sure to only include esssential functions so they are not overwhelmed. Clients can keep track of their homework, look at their progress report and have access to emergency information.</p>
+			</div>
+		</div>
+		<div class="content">
+			<div class="chunk">
+				<h3 class="portHead3">Choosing and Organizing the right content</h3><br>
+				<p>something</p>
 			</div>
 		</div>
 			

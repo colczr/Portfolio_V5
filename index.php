@@ -1,5 +1,5 @@
 <?php
-
+include("authentication.php");
 include("head.php");
 ?>
 	<body>
