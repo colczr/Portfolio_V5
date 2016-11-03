@@ -10,7 +10,7 @@ var quoteFade = new TimelineMax ()
     TweenMax.to("#quotes", 1, {autoAlpha: 0, ease: Linear.easeNone}),
   ]);
 
-var smsceneQuoteFade = new ScrollMagic.Scene({triggerElement: "#pin1", triggerHook: 'onLeave', offset: 400, duration: 200})
+var smsceneQuoteFade = new ScrollMagic.Scene({triggerElement: "#pin1", triggerHook: 'onEnter', offset: 400, duration: 200})
   .setTween(quoteFade)
   .addTo(controller);
 
@@ -19,6 +19,6 @@ var painFadeIn = new TimelineMax ()
   .add([
     TweenMax.to("#pain", 1, {autoAlpha: 1, ease: Linear.easeNone}),
   ]);
-var smscenePainFadeIn = new ScrollMagic.Scene({triggerElement: "#pin1", triggerHook: 'onLeave', offset: 400, duration: 200})
+var smscenePainFadeIn = new ScrollMagic.Scene({triggerElement: "#pin1", triggerHook: 'onEnter', duration: 200})
   .setTween(painFadeIn)
   .addTo(controller);

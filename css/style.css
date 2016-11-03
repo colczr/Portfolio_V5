@@ -568,6 +568,21 @@ nav.pnav {
   margin-left: -2rem;
 }
 
+#wireframe{
+  width: 1100px;
+  display: block;
+  margin: auto;
+  position: relative;
+  left: -20rem;
+}
+
+.anim{
+  display: block;
+  margin: auto;
+
+}
+
+
 
 
 @media screen and (max-width: 900px) {

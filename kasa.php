@@ -58,31 +58,49 @@ include("head.php");
 				<br><br>
 
 			</div>
+		</div>
+		<div class="content" style="background-color: #efefef;">
 			<div class="chunk">
-				<h3 class="portHead3">Designing a usable interface</h3><Br>
-				<h4 class="portHead4">First iteration and usability test</h4>
+				<h3 class="portHead3">Designing a usable interaction flow</h3><br>
+				<h4 class="portHead4">Wireframe and usability test</h4>
 				<p>
-				In the first iteration of design, I made two mistakes that were later revealed in the usability test. I wrongly strived for minimal steps of interaction in order to create a frustration-less experience. Consequently, too much information was squeezed into only a few pages and the overload of information and available actions confused the user. The other mistake was to combine triggers and conditions together as "if" statements, allowing the user to set multiple triggers. It resulted in something like "if my light is on, and if I am home, turn on the coffee machine". However, this caused lack of clarity: does it mean "if my light is on, and I came home", or "if my lights are turned on when I am at home". <br>
-				<img id="notes" src="img/kasa/notes.jpg"/><br></p>
-			</div>
-			<div class="chunk">
-				<h4 class="portHead4">Usability test proved me wrong</h4>
-				<p>After completing the wireframe, I conducted a usability test with 6 users, whose result proved my previous emphasis wrong. I found that<br><br>
-				1) most users indeed feel the need of using this feature, but<br>
-				2) cannot think of a very complicated case when asked about how they would use this feature, and<br>
-				3) most users do not understand the meaning of the industry-specific words without explanation.<br>
-
+				After the first iteration of wireframe, I conducted a usability test with 6 users. The usability test provided me with good insights into my first iteration of design: I wrongly strived for minimal steps of interaction in order to create a frustration-less experience. Consequently, too much information was squeezed into only a few pages and the overload of information and available actions confused the user. Moreover, I found that user prefer a "action -> trigger -> condition" process. I also found that the automation feature is something that the user would not frequently need to configure: once it's set up, it does not need intervention until the user need to change it or create a new rule. 
+				<img id="notes" src="img/kasa/notes.jpg"/>
+				<h4 class="portHead4">Refining and prototyping</h4>
+				<p>Based on the result from the usability test, I refined my design and instead putting the focus on making the process of setting up a rule intuitive with thorough guidance.</p>
+				<img id="wireframe" src="img/kasa/wireframe.png"/>
 				</p>
 			</div>
-			<div class="chunk">
-				<h4 class="portHead4">Second iteration: Logical and intuitive</h4>
-				<p>I revisited the persona and the use case for this function. I realize the mistake I made: this is a function that a user would only use once to set up. Once set up, it will keep working in the background. The user will at some point forget about it unless they want to set up another new rule. Therefore, using a "simple" set up procedure without explanation or guide-through might make the process very confusing: the user only looks at the set up interface and the language every, let's say, three months. By the time the user has to do it again, he might already forgot what should be done.<br><br>
-				After realizing my mistake and the opportunity, I changed the focus of my second iteration to emphasize the logic and intuitivity of the procedure. And the application by Vivint gave me inspiration of using natural language to guide the user through the somewhat convoluted setup process. 
-				</p>
-
-			</div>
-
-
+		</div>
+		<div class="content">
+				<div class="chunk">
+					<h3 class="portHead3">Bringing out the details</h3><br><br>
+					<p>After wireframing, I came up with some high-fidelity prototypes. I used natural language and fill-in-the-blank style instructions in order to give users ideas of what they are setting up and what the function would actually be like in words that they understand. Because the process is rather confusing and requires logic, I made it very easy for users to go back and correct any mistakes they made.</p>
+				</div>
+				
+				<video class="anim" width="700" autoplay loop>
+					<source src="img/kasa/anim1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+				</video>
+				<div class="chunk">
+					<p>I also made sure whatever they have already set up is always visible to them in order to help them diagnose any errors as well as progressing further in the steps.</p>
+				</div>
+				
+				<video class="anim" width="700" autoplay loop>
+					<source src="img/kasa/anim2.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+				</video>
+				
+				<div class="chunk">
+					<p>Although I aim to provide maximum flexibility, for some more nuissance details, I chose to only provide users with visible increments of options: for instance, setting up the brightness of a lightbulb at 0%, 25%, 50%, 75% and 100%. This provides convenience to both the user and the programmer.</p>
+				</div>
+				
+				<video class="anim" width="700" autoplay loop>
+					<source src="img/kasa/anim3.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+				</video>
+				<br><br>
+			
 		</div>
 	</div>
 
