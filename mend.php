@@ -52,7 +52,7 @@ include("head.php");
 			<div style="width: 110rem; margin: auto;"><br><br>
 				<p style="width: 37rem; display: inline-block; vertical-align: middle; padding-right: 7rem;">
 					<span style="display: block; font-size: 2.5rem; font-family: Martel Sans; font-weight: 800; letter-spacing: -0.15rem;">What if...we make the time outside of the therapy useful?</span> <br>The client can update the therapist daily and the therapist can efficiently use the information to adjust the therapy accordingly.</p>
-				<img id="storyboard" src="img/mend/storyboard.png"/><br><br><br>
+				<img class="right" src="img/mend/storyboard.png"/><br><br><br>
 			</div>
 		</div>
 		<div class="content" style="background-color: #efefef;">

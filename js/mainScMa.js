@@ -29,7 +29,7 @@ var tweenPort = new TimelineMax ()
   ]);
 
 // build scene
-var smscene3 = new ScrollMagic.Scene({triggerElement: "#about", triggerHook: "onEnter", duration: 600})
+var smscene3 = new ScrollMagic.Scene({triggerElement: "#about", triggerHook: "onEnter", offset: -300, duration: 600})
   .setTween(tweenPort)
   .addTo(controller);
 
@@ -39,7 +39,7 @@ var changeColor = new TimelineMax ()
     TweenMax.to('.navItem', 1.5, {color: '#ccc'})
   ]);
 
-var smsceneChangeColor = new ScrollMagic.Scene({triggerElement: "#about", duration: 300})
+var smsceneChangeColor = new ScrollMagic.Scene({triggerElement: "#about", offset: -200, duration: 500})
   .setTween(changeColor)
   .addTo(controller);
 

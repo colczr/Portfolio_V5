@@ -1,6 +1,6 @@
 var controller = new ScrollMagic.Controller();
 
-var scene = new ScrollMagic.Scene({triggerElement: "#pin1", duration: 500, triggerHook: 'onLeave'})
+var scene = new ScrollMagic.Scene({triggerElement: "#pin1", duration: 300, triggerHook: 'onLeave'})
 						.setPin("#pin1")
 						.addTo(controller);
 
