@@ -63,24 +63,12 @@ $(window).scroll(function(){
   }
 });
 
-$(".gallery img").on('mouseenter', function(){
+$(".pgrid").on('mouseenter', function(){
   $(this).stop().fadeTo('fast',0.3);
 
 });
 
-$(".gallery img").on('mouseleave', function(){
+$(".pgrid").on('mouseleave', function(){
   $(this).stop().fadeTo('fast',1);
 
-});
-
-
-$(".filter").on('click', function(){
-  $(".filter").css({'border-bottom':'none'});
-  $(this).css({'border-bottom':'1px solid #c33'});
-});
-
-
-
-$(function(){
-  $('#Container').mixItUp();
 });

@@ -3,9 +3,9 @@
 	unset($_SESSION['id']);
 	if (isset($_POST['submit'])){
 
-		if ($_POST['password'] == "wolfiem"){
+		if ($_POST['password'] == "cchent"){
 			$_SESSION['id'] = 1;
-			header("Location: index.php");
+			header("Location: kasa.php");
 		} else {
 			header("Location: login.php");
 		}
@@ -36,18 +36,20 @@
 
 	</head>
 	<body>
-
+		<?php
+		include("track.php");
+		?>
 		<div id="container">
 
 			<nav>
 				<ul>
-					<a href="#home"><img  style="opacity: 1" id="logo_small" src="img/logo_small.png"/></a>
+					<a href="index.php"><img  style="opacity: 1" id="logo_small" src="img/logo_small.png"/></a>
 				</ul>
 			</nav>
 
 			<div class="section-container">
 				<div class="section" id="home">
-					<p class="hero-1">&nbsp;&nbsp;Please enter password	
+					<p class="hero-1">&nbsp;&nbsp;Please enter password	(included in resume)
 						<form method="POST"><br><input type="text" name="password" class="hero-1">
 
 						<br><input type="submit" class="hero-1" style="display:block; width: 10rem;" name="submit"></form>

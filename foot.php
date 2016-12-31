@@ -13,5 +13,3 @@
 <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
 <script type="text/javascript" src="js/libs/stats.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/pixup.js"></script>
-<script type="text/javascript" src="js/KasaScMa.js"></script>

@@ -1,8 +1,10 @@
 <?php
-include("authentication.php");
 include("head.php");
 ?>
 	<body>
+		<?php
+		include("track.php");
+		?>
 		<div class="load-screen">
 		    <div class="tm-loader"><div class="spinner"></div></div>
 		</div>
@@ -31,68 +33,45 @@ include("head.php");
 					</div>
 
 				<div id="portfolio" class="section">
-					<div id="portfolio-nav">
-						<a class="filter al" data-filter=".mix">All</a>
-						<a class="filter" data-filter=".ux">UX</a>
-						<a class="filter" data-filter=".ui">UI/Graphic</a>
-						<a class="filter" data-filter=".fr">Front-End</a>
-					</div>
-					<div id="Container" class="portfolio-container container grid">
-							<div class="gridItem mix ux">
-								<a class="gallery" href="kasa.php">
-									<img src="img/portfolio/kasa.png"/></a>
-									<h3>TP-Link Kasa</h3>
-									<h4>UX Design</h4>
-							</div>
 
-							<div class="gridItem mix ui">
-								<a class="gallery" href="http://www.dribbble.com/colinchen" target="_blank">
-									<img src="img/portfolio/dribbble.png"/></a>
-									<h3>Graphic/UI Work</h3>
-									<h4>Collection of Work</h4>
-							</div>
-
-							<div class="gridItem mix ux">
+					<div id="Container" class="portfolio-container">
+							<div class="pgrid">
 								<a class="gallery" href="mend.php">
-									<img src="img/portfolio/mend.png"/></a>
-									<h3>Mend</h3>
-									<h4>UX Design</h4>
-							</div>
+									
+									<img src="img/portfolio/mend.png"/>
+									<div><h3>Mend</h3>
+									<p>Make psychotherapy <br>more efficient</p>
+									</div></a>
 
-							<div class="gridItem mix ux">
-								<a class="gallery" href="ryce.php">
-									<img src="img/portfolio/ryce.png"/></a>
-									<h3>Ryce</h3>
-									<h4>UX Design</h4>
 							</div>
-
-							<div class="gridItem mix ux">
-								<a class="gallery" href="post.php">
-									<img src="img/portfolio/postitplus.png"/></a>
-									<h3>Post-it Plus</h3>
-									<h4>UX Research</h4>
+							
+							<div class="pgrid">
+								<a class="gallery" href="kasa.php">
+									<img src="img/portfolio/kasa.png"/>
+									<div><h3>TP-LINK Kasa</h3>
+									<p>Automate daily routines <br>for smart home users</p>
+									</div></a>
 							</div>
-
-							<div class="gridItem mix ux">
-								<a class="gallery" href="pixu.php">
-									<img src="img/portfolio/pixup.png"/></a>
-									<h3>PixUp</h3>
-									<h4>UX Design</h4>
+							
+							<div class="pgrid">
+								<a class="gallery" href="http://www.dribbble.com/colinchen" target="_blank">
+									<img src="img/portfolio/dribbble.png"/>
+									<div><h3>UI Design</h3>
+									<p>Dribbble UI design <Br> portfolio</p>
+									
+								</div></a>
 							</div>
-
-							<div class="gridItem mix ui fr">
-								<a class="gallery" href="http://www.colinchen.net/creative/" target="_blank">
-									<img src="img/portfolio/creative.png"/></a>
-									<h3>Former Portfolio</h3>
-									<h4>Frontend</h4>
+							
+							
+							<div class="pgrid">
+								<div><a class="gallery" href="mira.php">
+									<img src="img/portfolio/mira.png"/>
+									<div><h3>Mira</h3>
+									<p>Your personal <Br> skincare expert</p>
+									</div></a></div>
 							</div>
-
-							<div class="gridItem mix fr">
-								<a class="gallery" href="http://www.colinchen.net/opis" target="_blank">
-									<img src="img/portfolio/opis.png"/></a>
-									<h3>Opis</h3>
-									<h4>Front/Backend</h4>
-							</div>
+							
+					
 
 
 					</div>
@@ -106,7 +85,7 @@ include("head.php");
 						<div class="about-content container">
 							<div id="fadeBox">
 									<img id="portrait" src="img/portrait.png"/>
-									<p class="aboutText1"><span>Empathy. Feasibility. Simplicity.</span><br>I am a first-year Master's student at the University of Michigan studying Human-Computer Interaction. I value simplicity, feasibility and creativity in my work. Aside from being a UX designer, I am a classical musician. I play the piano and the violin.
+									<p class="aboutText1"><span>Empathy. Feasibility. Simplicity.</span><br>I am a second-year Master's student at the University of Michigan studying Human-Computer Interaction. I value simplicity, feasibility and creativity in my work. Aside from being a UX designer, I am a classical musician. I play the piano and the violin.
 									<span class="resume"><a href="Chen_Resume.pdf" target="_blank">View Resume</a></span>
 									</p>
 

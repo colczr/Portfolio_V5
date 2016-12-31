@@ -9,7 +9,7 @@
 		<meta property="og:image" content="img/logo.png">
 		<meta property="og:site_name" content="Colin Chen Portfolio"/>
 		<meta property="og:description" content="Welcome to my portfolio. I'm a Master's student in HCI at the University of Michigan"/>
-		<link href='https://fonts.googleapis.com/css?family=Martel+Sans:200,300,700,800,900|Martel:200,300,400,700,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:200,300,700,800,900|Martel+Sans:200,300,400,700,900' rel='stylesheet' type='text/css'>
 		<link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 		<script src="js/lib/jquery.min.js"></script>
 		<!-- Css -->
