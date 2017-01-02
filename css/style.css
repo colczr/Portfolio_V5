@@ -613,7 +613,19 @@ nav.pnav {
 .anim{
   display: block;
   margin: auto;
-  margin-left: -8rem;
+  margin-left: 2rem;
+}
+
+.steps{
+  display: inline-block;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  
+}
+
+#steps-container{
+  width: 970px;
+  margin: auto;
 }
 
 .detail .chunk{
@@ -640,13 +652,15 @@ nav.pnav {
   width: 30rem;
   display: inline-block;
   margin-right: 5rem;
+  vertical-align: top;
+
 }
 
 .solution img{
-  width: 23rem;
+  width: 20rem;
   display: block;
   margin: auto;
-  
+  padding-bottom: 10rem;
 }
 
 .solution-container{
@@ -655,10 +669,18 @@ nav.pnav {
 }
 
 .solution p{
-  color: #aaa;
-  font-size: 1.3rem;
+  color: #444;
+  font-size: 1.4rem;
   line-height: 2.6rem;
-  text-align: justify;
+  text-align: center;
+}
+
+.solution p span{
+  display: block;
+  font-size: 2rem;
+  font-family: "Martel Sans";
+  font-weight: 600;
+  padding-bottom: 1rem;
 }
 
 
