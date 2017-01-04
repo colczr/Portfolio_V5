@@ -23,7 +23,7 @@ include("head.php");
 			<img src="img/kasa/title.png" style="width: 100vw;"/>
 			<div class="chunk">
 				<h3 class="portHead3">How did our competitors approach automation?</h3><br>
-				<p>In order to get a thorough understanding of current home automation apps, I looked into some major smart-home competitors as well as some user feedback to get a good sense of where to start.All of our competitors have some forms of automation. However, the approach is very different.</p>
+				<p>In order to get a thorough understanding of current home automation apps, I looked into some major smart-home competitors as well as some user feedback to get a good sense of where to start. All of our competitors have some forms of automation. However, the approach is very different.</p>
 				<img id="competitive" src="img/kasa/competitive.png"/><br>
 			</div>
 		
@@ -31,7 +31,7 @@ include("head.php");
 		<div class="content" style="background-color: #e3e3f6;">
 			<div class="chunk"  id="pin1">
 				<h3 class="portHead3">What do the users want?</h3><br>
-				<p>The user review from Apple appstore as well as the Google playstore gave me a lot of insight into what the users wanted for the application, and pointed some directions to the design.</p>
+				<p>The user review from Apple Appstore as well as the Google Playstore gave me a lot of insight into what the users wanted for the application, and pointed some directions to the design.</p>
 				<img id="quotes" src="img/kasa/quotes.png"/><br>
 				<img id="pain" src="img/kasa/pain.png"/>
 			</div>
@@ -40,7 +40,7 @@ include("head.php");
 			<div class="chunk">
 				<h3 class="portHead3">Summarizing the findings</h3>
 				<br>
-				<p>Based on research previously done by TP-LINK as well as my own research above, I summarized and distilled the information from the research and came up with the core components of a automation rule: trigger, condition, and action. </p>
+				<p>Based on research previously done by TP-LINK as well as my own research above, I summarized and distilled the information from the research and came up with the core components of an automation rule: trigger, condition, and action. </p>
 				<br>
 				<img id="rule" src="img/kasa/rule.png"/>
 			</div>
@@ -69,26 +69,28 @@ include("head.php");
 		</div>
 		<div class="content" style="height: 50rem; background-image: url(img/kasa/middle.png); background-size: cover; background-position: center;">
 		</div>
-		<div class="content" style="background-color: #d5e9f9;">
+		<div class="content">
 			<div id="steps-container">
 				<img src="img/kasa/steps.png" width="960px" style="position: absolute;"/>
-					<video class="steps" width="210" autoplay loop style="margin-left: 20px;">
+					<video class="steps" width="222" autoplay loop style="margin-left: 20px;">
 						<source src="img/kasa/step1.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 					</video>
-					<video class="steps" width="210" autoplay loop style="margin-left: 40px;">
+					<video class="steps" width="220" autoplay loop style="margin-left: 40px;">
 						<source src="img/kasa/step2.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 					</video>
-					<video class="steps" width="210" autoplay loop style="margin-left: 180px;">
+					<video class="steps" width="220" autoplay loop style="margin-left: 180px;">
 						<source src="img/kasa/step3.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 					</video>
 			</div>		
 		</div>
 	</div>
+		<div class="content">
+			<h3 class="portHead3" style="background-color: #dcf5fb; padding: 10rem 0">Bringing out the details</h3>
+		</div>
 		<div class="content detail">
-				<br><h3 class="portHead3">Bringing out the details</h3><br><br>
 				<div class="chunk">
 					<video class="anim" width="700" autoplay loop>
 						<source src="img/kasa/anim1.mp4" type="video/mp4">
@@ -116,7 +118,7 @@ include("head.php");
 						<source src="img/kasa/anim3.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 					</video>
-					<p>Although I aim to provide maximum flexibility, for some more nuissance details, I chose to only provide users with visible increments of options: for instance, setting up the brightness of a lightbulb at 0%, 25%, 50%, 75% and 100%. This provides convenience to both the user and the programmer.</p>
+					<p>Although I aim to provide maximum flexibility, for some more nuisance details, I chose to only provide users with visible increments of options: for instance, setting up the brightness of a lightbulb at 0%, 25%, 50%, 75% and 100%. This provides convenience to both the user and the programmer.</p>
 					
 				</div>
 				

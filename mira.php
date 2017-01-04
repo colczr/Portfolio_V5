@@ -32,7 +32,7 @@ include("head.php");
 				<h4 class="portTag"><span>UX</span> <span>UI</span> <span>2016</span></h4>
 				<h2 class="portHead2 white">Make psychotherapy more efficient</h2>
 				<br><br>
-				<p style="color:white; width: 55rem; margin: auto;">mira provides daily logs for the patient to record their mood, diary and a variety of measures to share with the therapist, so that the therapist can provide a more tailored treatment.
+				<p style="color:white; width: 55rem; margin: auto;">Mira provides daily logs for the patient to record their mood, diary and a variety of measures to share with the therapist, so that the therapist can provide a more tailored treatment.
 				</p>
 				<br>
 			</div>
@@ -48,7 +48,7 @@ include("head.php");
 			<div class="chunk">
 				<h3 class="portHead3">Skincare can be hard</h3><br>
 				<img src="img/mira/painpoints.png" width="1000px" style="display: block; margin-left: -15rem;"/>
-				<br><p style="text-align: center;">We know skincare with traditional methods can be hard, so we wanted to design a product that can naturally integrate into our user's daily life and provide them with the feedback they need.</p>
+				<br><p style="text-align: center;">We know skincare with traditional methods can be hard, so we want to design a product that can naturally integrate into our user's daily life and provide them with the feedback they need.</p>
 			</div>
 		</div>
 		<div class="content" >

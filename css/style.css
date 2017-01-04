@@ -532,8 +532,8 @@ nav.pnav {
 #info_arch{
   display: block;
   position: absolute;
-  margin-left: -35rem;
-  margin-top: -17rem;
+  margin-left: -40rem;
+  margin-top: -30rem;
   width: 1400px;
 }
 
@@ -597,7 +597,7 @@ nav.pnav {
   left: -20rem;
 }
 
-#structure{
+.structure{
   display: block;
   width: 700px;
   margin: auto;
@@ -610,6 +610,20 @@ nav.pnav {
   vertical-align: middle;
 }
 
+.left-paragraph{
+  width: 37rem; 
+  display: inline-block; 
+  vertical-align: middle; 
+  padding-right: 2rem;
+  padding-left: 5rem;
+}
+
+.therapist-thumbnail{
+  display: block;
+  width: 9rem;
+  margin: auto;
+  padding-bottom: 5rem;
+}
 .anim{
   display: block;
   margin: auto;
